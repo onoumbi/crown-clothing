@@ -1,0 +1,7 @@
+INSTALL SASS
+
+# using npm
+npm install node-sass --save
+
+# using yarn
+yarn add node-sass
