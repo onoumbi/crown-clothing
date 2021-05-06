@@ -1,7 +1,31 @@
-INSTALL SASS
+CREATE REACT APP
+npx create-react-app demo-app
+
+INSTALL SASS CSS
 
 # using npm
 npm install node-sass --save
 
 # using yarn
 yarn add node-sass
+
+
+INSTALL REACT ROUTER DOM
+
+npm install react-router-dom
+
+Go to index.js and import BrowserRouter from 'react-router-dom'
+BrowserRouter gives our app all functionalities of routing
+
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById("root")
+);
+
+
+
+
+Install fireabase
+ npm install --save firebase
