@@ -6,7 +6,6 @@ import CustomButton from '../custom-button/custom-button.component';
 import { auth, createUserprofileDocument } from '../../firebase/firebase.utils';
 
 import './sign-up.styles.scss';
-import { ExpirationPlugin } from 'workbox-expiration';
 
 class SignUp extends React.Component {
     constructor() {
@@ -23,7 +22,6 @@ class SignUp extends React.Component {
 
     handleSubmit = async event => {
         //async func that gets the event, prevents the default submitting
-        //
         event.preventDefault();
 
         const { displayName, email, password, confirmPassword } = this.state;
@@ -85,7 +83,6 @@ class SignUp extends React.Component {
                         required
                     />
 
-
                     <FormInput
                         type='password'
                         name='password'
@@ -94,7 +91,6 @@ class SignUp extends React.Component {
                         label='Password'
                         required
                     />
-
 
                     <FormInput
                         type='password'

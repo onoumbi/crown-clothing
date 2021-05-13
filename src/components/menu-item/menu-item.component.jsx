@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 
-//withRouter is a higher order component: function that takes a comp as arg and returns a modified comp
+//withRouter is a higher order component: function that takes a component as arg and returns a modified component
 
 import './menu-item.styles.scss';
 

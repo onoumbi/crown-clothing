@@ -29,3 +29,7 @@ ReactDOM.render(
 
 Install fireabase
  npm install --save firebase
+
+Install Redux, Redux-react, redux logger
+npm i redux
+npm i redux

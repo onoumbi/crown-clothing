@@ -60,7 +60,7 @@ class Directory extends React.Component {
                 }
 
             </div>
-        )
+        );
     }
 
 }
