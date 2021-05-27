@@ -1,6 +1,7 @@
-//reducer is just a func that get 2 properties
+//reducer is a func that takes 2 args
 //state obj: last state or init state which is an obj that we trying to store
-//action obj: object that has a type wich is a string, tell us what specific action is
+//action obj: object that has a type which is a string, tell us what specific action is
+//returns a new state 
 const INITIAL_STATE = {
     currentUser: null
 };
