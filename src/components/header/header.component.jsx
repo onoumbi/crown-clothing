@@ -5,7 +5,7 @@ import { connect } from 'react-redux'; //let us modify our comp to have access t
 
 import { auth } from '../../firebase/firebase.utils';
 import CartIcon from '../cart-icon/cart-icon.component';
-import CartDropDown from '../cart-dropdown/cart-dropdown.component';
+import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 
 
 import { ReactComponent as Logo } from '../../assets/crown.svg';
@@ -35,7 +35,7 @@ const Header = ({ currentUser, hidden }) => (
         )}
         <CartIcon />
       </div>
-      {hidden ? null : <CartDropDown />}
+      {hidden ? null : <CartDropdown />}
     </div>
   );
   
